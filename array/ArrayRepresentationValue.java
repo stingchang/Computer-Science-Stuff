@@ -43,4 +43,16 @@ public class ArrayRepresentationValue {
 
 		return set.size() + 1;
 	}
+
+	// o (1) solution
+	// http://www.geeksforgeeks.org/find-subarray-with-given-sum/
+
+	public static int minValue2(int[] arr) {
+		int len = arr.length;
+		int result = 1;
+		for (int i = 0; i < len && arr[i] <= result; i++) {
+			result += arr[i];
+		}
+		return result;
+	}
 }
