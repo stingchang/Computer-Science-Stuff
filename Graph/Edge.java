@@ -1,3 +1,8 @@
+/*
+ * Author: Sting Chang
+ * Date: 07/06/2016
+ * */
+
 package com.sting.algorithm.graph;
 
 import java.util.HashSet;
