@@ -23,7 +23,7 @@ public class Test {
 		
 		System.out.print("\n\n");
 		List<Integer> list = null;
-		list = m.bfsTraversal();
+		list = m.bfsTraversal(); 
 		System.out.print("BFS: "+list);
 
 		System.out.print("\n\n");
